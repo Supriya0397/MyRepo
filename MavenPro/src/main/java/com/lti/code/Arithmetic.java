@@ -13,7 +13,7 @@ public class Arithmetic {
 	}
 	
 	public int min(int a,int b) {
-		return a > b ? a : b;
+		return a < b ? a : b;
 	}
 
 }
